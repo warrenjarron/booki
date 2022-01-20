@@ -1,0 +1,161 @@
+/*--l'en-tete--*/
+html,body
+ { margin:0; 
+    padding:0;
+    box-sizing:border-box ; 
+
+  font-family: 'raleway',Arial,Helvetica,sans-serif;
+  margin: auto;
+}
+
+ 
+.flex-Centre{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: justify;
+}
+.flex-Around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
+.filtre-texte-icons {
+text-align: center;
+
+}
+.flex-centre-button-search{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+.flex-Between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+.flex-column-centre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .flex-column-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .button-search{
+  background: #0065fc;
+  height: 25px;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0; 
+  margin-top:right;
+
+  }
+  /*couleurs*/
+
+  .parent-icon{
+    color:#0065fc;
+    
+  }
+
+  .fa-star{
+    color: #0065fc;
+    align-items: center;
+  
+  }
+  .mobile-none{
+    color: white;
+  }
+  .decoration-nNone {
+    text-decoration: none;
+  }
+.sizeNav{
+  height: auto;
+}
+.size-Lien{
+    width: 100%;
+
+}
+.size-lien12 {
+  margin-left: 60%;
+}
+.size-Lien{
+  width: 140px;
+  height: 99;
+}
+.navbor{
+  border-top: 1px solid #0065fc;
+}
+
+.filtre-icons{
+  color: #0065fc;
+
+}
+/*texte*/
+.filtre-icons h2{
+  margin-top: 10px;
+}
+.filtre-texte-icons{
+  padding-top: 0;
+}
+.colorlien13 {
+  color:blue
+}
+.colorlien2 {
+  color: black;
+}
+
+.bordure-Nav {
+  border-top: 1px solid blue;
+}
+.bordure-Nav23 {
+  border-top: 1px solid transparent;
+}
+.bordure-nav:hover {
+  border-top: 1px solid #0065fc;
+  cursor: pointer;
+}
+.marg-logo {
+  margin-bottom: 7px;
+}
+/*HEADER*/
+.desktop-none {
+  display: none;
+}
+.bordure-search {
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px solid #0065fc;
+}
+.padding-search {
+  padding-left: 20%;
+}
+.icon-size {
+  height: 50px;
+  border-radius: 10px,0,0,10px;
+}
+
+.button-search:hover {
+  color: #0065fc;
+  background-color: #0065fc;
+}
+
+
+
+
+
+
+
+
