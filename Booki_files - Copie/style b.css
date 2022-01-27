@@ -224,7 +224,7 @@ header{
   
   .bouton-info {
   
-    margin-left: 0px;
+    margin-left: 30px;
     margin-bottom: 20px;
   
   }
@@ -244,7 +244,7 @@ header{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    width: 102%;
+    width: 100%;
     flex-wrap: wrap-reverse;
   
   }
@@ -273,39 +273,37 @@ header{
        display: flex;
        flex-direction: column;
        background-color: #f2f2f2;
-       margin-right:274px;
+       margin-right:20px;
        border-radius: 25px;
-       width: 648px;
+       width: 835px;
   
    }
   
    .accomodation_card img {
   
-    width: 100%;;
+    width: 220px;;
     height: 150px;
     background-color: white;
   
   }
   
   .accomodation_card img {
-  width: 100%;
-  height: 150px;
+  
     border-radius: 20px 20px 0 0;
   
   }
   
   #accomodation_cards a {
   
-    margin-left: 11px;
-    margin-top: 6px;
+    margin-left: 26px;
+    margin-top: 10px;
     padding: 6px;
     padding-top: 5px;
     background-color: white;
     border-radius: 30px;
-    line-height: 13.8px;
+    line-height: 0.8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 29%;
-    height: 46%;
+    width: 26%;
   
   
   
@@ -313,7 +311,7 @@ header{
   
   .cannabiere img {
   
-    width: 101%;
+    width: 230px;
     padding: 0.5px;
   
   
@@ -337,7 +335,7 @@ header{
   
     #aside_title{
   
-        margin-left: 47px;
+        margin-left: 37px;
   
     }
   
@@ -347,8 +345,8 @@ header{
     background-color: #f2f2f2;
     flex-direction: column;
     border-radius: 25px;
-    margin-left: -259px;
-    margin-top: 1px;
+    margin-left: 20px;
+    margin-top: 0;
     width: 30%;
   
   }
@@ -361,32 +359,30 @@ header{
   
   .popular img {
   
-    height: 149px;
-    width: 41%;
-    margin: 15%;
+    height: 120px;
+    width: 55%;
+    
   
   }
   
   #popular_liste {
   
-    width:99%;
+    width:440px;
     display: flex;
     flex-direction:column;
-    height: 86%;
-    margin-top: -11px;
   
   }
   
   #popular_liste a {
   background-color: white;
   border-radius: 30px;
-  width: 91%;
-  margin-top:4%;
-  margin-bottom: 17px;
-  margin-left: 2%;
-  padding:10px;
+  width: 89%;
+
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 23px;
+  padding:7px;
   padding-top: 6px;
-  height: 158px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   
   }
@@ -394,20 +390,18 @@ header{
   .popular_d {
   
    
-    margin-left: 43%;
+    margin-right: 10%;
     background-color: white;
-    height: 20px;
-    margin-top: -185px;
-  width: 60%;
+    height: 140px;
   
   }
   
   .popular div img {
   
-    margin-left: -2%;
-    margin-top: 7px;
+    margin-left: -1px;
+    margin-top: 1%;
     border-radius: 20px 0 0 20px;
-
+  
   }
   
   
@@ -431,9 +425,13 @@ header{
   #catalogue {
   
     display: flex;
+  
     justify-content: space-around;
+  
     flex-wrap: wrap;
-    margin-bottom: 5%;
+  
+    margin-bottom: 50px;
+  
     margin-top: -50px;
   
   }
@@ -441,14 +439,21 @@ header{
   .vieux-port a {
   
     display: flex;
+  
     flex-direction: column;
-    margin-top: 84px;
-    margin-left: -51px;
+  
+    margin-top: 80px;
+  
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
     padding-left: 0px;
+  
     padding-top: 0px;
+  
     padding-right: 0px;
+  
     padding-bottom: 10px;
+  
     border-radius: 30px;
   
   }
@@ -457,9 +462,9 @@ header{
   
   .vieux-port a img {
   
-    width:225px;
+    width:300px;
   
-    height: 438px;
+    height: 450px;
   
     border-radius: 30px 30px 0px 0px;
   
@@ -468,54 +473,72 @@ header{
   .parc a {
   
     display: flex;
+  
     flex-direction: column;
-    margin-top: 84px;
-    margin-left: -85px;
-    margin-right: -2px;
+  
+    margin-top: 80px;
+  
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
     padding-left: 0px;
+  
     padding-top: 0px;
+  
     padding-right: 0px;
+  
     padding-bottom: 10px;
+  
     border-radius: 30px;
   
   }
   
   .parc a img {
   
-    width: 225px;
-    height: 438px;
+    width: 300px;
+  
+    height: 450px;
+  
     border-radius: 30px 30px 0px 0px;
-    margin-left: 3px;
+  
   }
   
   .double a {
   
     display: flex;
+  
     flex-direction: column;
-    margin-bottom: -22%;
-    margin-top: 32%;
-    margin-left: -32px;
+  
+    margin-bottom: -35px;
+    margin-top: 39%;
+    width: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
     padding-left: 0px;
-    padding-top: 1px;
-    padding-right: 2px;
+  
+    padding-top: 0px;
+  
+    padding-right: 0px;
+  
     padding-bottom: 10px;
+  
     border-radius: 30px;
+  
+   
+  
   }
   
   .double {
   
-    margin-top: 3%;
-    margin-left: -78px;
-    margin-right: -3%;
+    margin-top: 80px;
   
   }
   
   .double a img {
   
-    width: 199px;
-    height: 170px;
+    width: 300px;
+  
+    height: 165px;
+  
     border-radius: 30px 30px 0px 0px ;
   
   }
